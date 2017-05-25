@@ -1,0 +1,265 @@
+/* --------------------------------------------- */
+/* BASIC SETUP */
+/* --------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    background-repeat: no-repeat;
+}
+
+.clearfix{zoom:1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/* --------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* --------------------------------------------- */
+
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+
+}
+#h1{
+  text-align: center;
+}
+
+section {
+    padding: 80px 0px;
+
+}
+
+.box {
+    padding: 1%;
+}
+
+
+/* --------- HEADINGS --------- */
+h1,
+h2,
+h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+
+}
+
+.row h2:after, .section-meals h2:after{
+    display: block;
+    height: 2px;
+    background-color:  #3ca0dc;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* --------- PARAGRAPHS --------- */
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/* --------- ICONS --------- */
+.icon-big {
+    font-size: 400%;
+    display: block;
+    color:  #3ca0dc;
+    margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: blue;
+    font-size: 120%;
+    margin-right: 10px;
+    /* --- */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+/* --------------------------------------------- */
+/* HEADER  */
+/* --------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/cherrak.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* --------------------------------------------- */
+/* FEATURES */
+/* --------------------------------------------- */
+
+.section-features {
+    height: 100vh;
+}
+
+.section-features .long-copy {
+    margin-bottom: 40px;
+}
+/* --------------------------------------------- */
+/* MEALS */
+/* --------------------------------------------- */
+
+.section-meals {
+
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100;
+
+}
+
+.meals-showcase li {
+    display: inline-flex;
+    float: right;
+    width: 50%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+.meal-photo img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+/*****
+*** Footer
+*****/
+
+footer{
+	background-color: #213540;
+	padding-bottom: 20px;
+}
+
+footer h2, .localisation p:not(.first){
+	color: white;
+}
+
+footer p{
+	color: #008fd5;
+}
+
+footer .localisation nav{
+	background-color: inherit;
+	box-shadow: none;
+}
+
+.localisation i{
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 5px;
+    font-size: 20px;
+    padding: 5px;
+    color: #213540;
+	background-color: #008fd5;
+}
+
+.localisation a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+	width: 50px;
+    height: 50px;
+	border: 3px solid #008fd5;
+	background-color: #213540;
+	font-size: 20px;
+    padding: 10px;
+	color: #008fd5;
+}
+
+.localisation a:hover{
+	background-color: #008fd5;
+	color: #213540;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+	color: white;
+}
+
+tr{
+	background-color: #008fd5;
+	color: #213540;
+}

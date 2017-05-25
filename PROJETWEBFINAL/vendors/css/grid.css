@@ -1,0 +1,70 @@
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: inline-block;
+float: left;
+	margin: 1% 25% 1% 25%;
+}
+
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width:800px) {
+	.col {
+		margin: 1% 0 1% 0%;
+		display: inline-block;
+	}
+
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+
+.span_4_of_4 {
+	width: 100%;
+}
+
+.span_3_of_4 {
+	width: 74.6%;
+}
+
+.span_2_of_4 {
+	width: 50%;
+	float: right;
+
+}
+
+.span_1_of_4 {
+	width: 50%;
+	margin: auto;
+
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 800px) {
+	.span_4_of_4 {
+		width: 100%;
+}
+	.span_3_of_4 {
+		width: 100%;
+	}
+	.span_2_of_4 {
+		width: 100%;
+	}
+	.span_1_of_4 {
+		width: 100%;
+	}
+}

@@ -1,0 +1,90 @@
+/* VARIABLES */
+/*#008fd5;*/
+/* BASE */
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  overflow: hidden;
+  *zoom: 1;
+  margin:0;
+}
+
+/* HEADER */
+
+
+
+
+
+
+.service{
+    background-color: rgba(0,143,213,0.9);
+    color: white;
+}
+.servi{
+  background-color:#5EB8E4;
+  color: white;
+
+}
+.h1{
+  margin-bottom: 10px;
+font-size: 24px;
+line-height: 30px;
+font-weight: 700;
+color: white;
+text-align: center;
+}
+.petiIcon{
+  border: 4px solid white;
+  background-color: white;
+  color:rgba(0,143,213,0.9);
+}
+.petiIcon:hover{
+  color: #5EB8E4;
+}
+.peticaro{
+  width: 80px;
+  height: 85px;
+  background-color: black;
+}
+.div1{
+  margin-top: 2%;
+  padding-right: 13%;
+  margin-right: 9%;
+  display: inline-block;
+}
+.peticaro{
+  float: left;
+  background: linear-gradient( white, rgba(0,143,213,0.9));
+  margin-right: 3%;
+  /*background:-moz-radial-gradient(center,circle, white 10% ,rgba(0,143,213,0.9));
+  background:-o-radial-gradient(center,circle,white  10% ,rgba(0,143,213,0.9));
+  background:-webkit-radial-gradient(center,circle,white  10% ,rgba(0,143,213,0.9));*/
+}
+.div0{
+  display: inline-block;
+    margin-top: 4%;
+    padding-right: 13%;
+
+}
+.ic{
+  background-color:#199AD9;
+  color:white;
+  font-size:28px;
+  float:right;
+  margin-right: -30%;
+  margin-top: -13%;
+}
+*{
+	box-sizing: border-box;
+	font-weight: normal;
+}

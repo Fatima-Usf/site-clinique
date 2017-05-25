@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ContactUs</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="nav + foot/css/materialize.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="nav + foot/css/styles.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/css/master.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="site-container">
+    		<div class="site-pusher">
+          <header>
+			<ul id="dropdown1" class="dropdown-content">
+			  <li><a href="bloc.html">Etablissement</a></li>
+			  <li><a href="Hospitalisation.html">Hospitalisation</a></li>
+			  <li><a href="spec.html">Specialités</a></li>
+			</ul>
+			<ul id="dropdown2" class="dropdown-content">
+			  <li><a href="bloc.html">Etablissement</a></li>
+			  <li><a href="Hospitalisation.html">Hospitalisation</a></li>
+			  <li><a href="spec.html">Specialités</a></li>
+			</ul>
+			<ul id="dropdown3" class="dropdown-content">
+			  <li><a href="About_us.html">Qui sommes nous</a></li>
+			  <li><a href="OurDrs.html">Our doctors</a></li>
+			</ul>
+			<ul id="dropdown4" class="dropdown-content">
+			  <li><a href="About_us.html">Qui sommes nous</a></li>
+			  <li><a href="OurDrs.html">Our doctors</a></li>
+			</ul>
+			<nav>
+			<div class="nav-wrapper  white">
+			  <a href="index.html" class="brand-logo"><i><img src="logo.jpg" alt=""></i>Clinique Cherrak</a>
+			  <a data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			  <ul class="menu right hide-on-med-and-down black-text">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a class="dropdown-button serv" data-activates="dropdown2">Services<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="news-default.html">Nouvelles</a></li>
+				<li><a class="dropdown-button" data-activates="dropdown4">À Propos<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="contactUs.html">Contacts</a></li>
+			  </ul>
+			  <ul class="menu side-nav" id="mobile-demo">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a class="dropdown-button serv" href="#!" data-activates="dropdown1">Services<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="news-default.html">Nouvelles</a></li>
+				<li><a class="dropdown-button" data-activates="dropdown3">À Propos<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a href="contactUs.html">Contacts</a></li>
+			  </ul>
+			</div>
+		  </nav>
+		</header>
+
+<div class="site-content">
+
+
+ <div class="jumbotron jumbotron-sm" style="background-color:#22B0F6; color:white;">
+   <div class="divo">
+     <div class="container">
+         <div class="row">
+             <div class="col-sm-12 col-lg-12">
+                 <h1 class="h1">
+                     Contactactez nous !<br><br><small>Sentez vous alaise de nous contactez</small></h1>
+             </div>
+         </div>
+     </div>
+ </div>
+
+   </div>
+
+<div class="container" >
+    <div class="row" >
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Nos cordonné</legend>
+            <address>
+                <strong>Adresse</strong><br>
+                Algérie.Oran.....<br>
+                blablavla<br>
+                <abbr title="Phone">
+                    P:</abbr>
+                (123) 456-7890
+            </address>
+            <address>
+                <strong>Clinique Cherrak elghossli</strong><br>
+                <a href="mailto:#">blabla</a>
+            </address>
+            </form>
+        </div>
+    </div>
+</div>
+<footer class="container-fluid footer">
+  <div class="col-sm-4 text-center">
+    <!--<div class="container">-->
+    <h2>La Clinique</h2>
+    <p>Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit.
+      Qui essent intellegat id, cibo noluisse assentior et mel, no debet mollis maiestatis sit
+    </p><hr>
+    <p>Salutatus incorrupte usu ad,
+      tamquam adversarium quo ad,
+      mea ex modo audiam placerat.
+      Sed solum maiorum rationibus an, an has intellegat reformidans, justo decore ne pri.
+    </p><hr>
+    <p>Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit.
+      Quo probatus delicata molestiae et.
+    </p>
+    <!--</div>-->
+  </div>
+  <div class="localisation col-sm-4 text-center">
+  <!--<div class="container">-->
+    <h2>Localisation</h2>
+    <p class="first">Lorem ipsum dolor sit amet
+    </p>
+    <i class="fa fa-phone"></i>
+    <p>
+      (907) 555-55555
+    </p>
+    <i class="fa fa-at"></i>
+    <p>
+      company@youremail.com
+    </p>
+    <i class="fa fa-skype"></i>
+    <p>
+      Medical Skype
+    </p>
+    <nav>
+      <a href="" class="text-center fa fa-facebook"></a>
+      <a href="" class="fa fa-instagram"></a>
+      <a href="" class="fa fa-twitter"></a>
+    </nav>
+    <!--</div>-->
+  </div>
+  <div class="col-sm-4 text-center">
+    <h2>Ouverture</h2>
+    <table class="table table-hover ">
+      <tbody>
+        <tr>
+          <td>Dimanche</td>
+          <td>08:00 am - 12:00 pm</td>
+        </tr>
+        <tr>
+          <td>Lundi</td>
+          <td>08:00 am - 12:00 pm</td>
+        </tr>
+        <tr>
+          <td>Mardi</td>
+          <td>08:00 am - 12:00 pm</td>
+        </tr>
+        <tr>
+          <td>Mercredi</td>
+          <td>08:00 am - 12:00 pm</td>
+        </tr>
+        <tr>
+          <td>Jeudi</td>
+          <td>08:00 am - 12:00 pm</td>
+        </tr>
+        <tr>
+          <td>Vendredi</td>
+          <td>08:00 am - 12:00 pm</td>
+        </tr>
+        <tr>
+          <td>Samedi</td>
+          <td>08:00 am - 12:00 pm</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</footer>
+</div> <!-- END site-content -->
+<div class="site-cache" id="site-cache"></div>
+</div> <!-- END site-pusher -->
+</div> <!-- END site-container -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="nav + foot/js/jquery-3.2.1.js"></script>
+<script src="nav + foot/js/bootstrap.min.js"></script>
+<script src="nav + foot/js/materialize.js"></script>
+<script src="nav + foot/js/materialize.min.js"></script>
+<script src="nav + foot/js/scripts.js"></script>
+</body>
+</html>

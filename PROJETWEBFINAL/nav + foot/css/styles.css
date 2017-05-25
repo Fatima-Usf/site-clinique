@@ -1,0 +1,101 @@
+
+
+*{
+	box-sizing: border-box;
+}
+
+/* HEADER */
+header a{
+	text-decoration: none;
+	color: inherit;
+}
+
+header a:hover{
+	text-decoration: none;
+}
+
+div.nav-wrapper a{
+	color: black;
+}
+
+div.nav-wrapper ul li a:hover, div.nav-wrapper ul li.active a{
+	color: white;
+	background-color: #008fd5;
+}
+
+.brand-logo i img{
+	height: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+	.brand-logo i img{
+		height: 52px;
+	}
+}
+footer{
+	background-color: #213540;
+	padding-bottom: 20px;
+}
+
+footer h2{
+	font-size: 35px;
+}
+
+footer h2, .localisation p:not(.first){
+	color: white;
+}
+
+footer p{
+	color: #008fd5;
+}
+
+footer .localisation nav{
+	background-color: inherit;
+	box-shadow: none;
+}
+
+.localisation i{
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 5px;
+    font-size: 20px;
+    padding: 5px;
+    color: #213540;
+	background-color: #008fd5;
+}
+
+.localisation a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+	width: 50px;
+    height: 50px;
+	border: 3px solid #008fd5;
+	background-color: #213540;
+	font-size: 20px;
+    padding: 10px;
+	color: #008fd5;
+}
+
+.localisation a:hover{
+	background-color: #008fd5;
+	color: #213540;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+	color: white;
+}
+
+tr{
+	background-color: #008fd5;
+	color: #213540;
+}
